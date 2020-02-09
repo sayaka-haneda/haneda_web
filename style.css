@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Abel', sans-serif;
+}
+
+header{
+    width:100%;
+    height:800px;
+    background-image:url(sea.jpg);
+    background-repeat:none;
+    background-size: cover;
+    opacity:0.5;
+    text-align:center;
+}
+
+header h1{
+    font-size:50px;
+    color:#000;
+    padding-top:370px;
+}
+
+.me{
+    width:40%;
+    height:600px;
+    object-fit:cover;
+    padding:50px;
+}
+
+h2{
+    font-size:60px;
+    opacity:0.5;
+}
+
+p{
+    font-size:40px;
+    margin-top:60px;
+    opacity:0.5;
+}
+
+.content{
+    display:flex;
+    position:relative;
+}
+
+.string{
+    margin:50px;
+}
+
+.fish{
+    position:absolute;
+    width:120px;
+    bottom:40px;
+}
+
+.fish1{
+    right:70px;
+}
+
+.fish2{
+    right:190px;
+}
+
+.fish3{
+    right:310px;
+}
+
+.fish4{
+    right:430px;
+}
